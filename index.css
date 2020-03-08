@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+b {
+    font-size: 70px;
+    font-weight: 100
+}
+
+p {
+    margin: 40px;
+    text-align: center;
+}
+
+td {
+    border-bottom: 2px solid rgb(219, 220, 221);
+    padding: 15px;
+    padding-bottom: 20px;
+    width: 100px;
+}
+
+
+table {
+    width: 80%;
+    margin: 10%;
+    border-collapse: collapse;
+    font-size: 18px;
+    color: rgb(124, 124, 124);
+    column-gap: 20px;
+}
+
+
+.main {
+    background-color: #2E5664;
+    padding: 40px;
+    color: white;
+    position: relative
+}
+
+.cards {
+    width: 80%;
+    display: flex;
+    margin: 10%;
+    justify-content: space-around;
+    position: relative;
+    margin-top: -50px;
+}
+
+.card {
+    float: left;
+    margin: 10px;
+    flex: 1 1 auto;
+    background-color: white
+}
+
+.card-title {
+    background-color: #203552;
+    color: white;
+    padding: 20px 0;
+    font-size: 30px;
+    border-bottom: solid #00A2D9 5px;
+}
+
+.card-body {
+    border: 1px solid #bfc3c9;
+    box-shadow: 0px 0px 8px 1px #dbdbd9;
+}
+
+.selected {
+    background-color: #142742;
+    border-bottom: solid #FF5900 5px;
+}
+
+.card-price {
+    padding-top: 20px
+}
+
+.card-users {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.card-features {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid #dedfe0 1px;
+}
+
+.card-box {
+    padding: 20px;
+    border-bottom: solid #dedfe0 1px;
+    color: #919191
+}
+
+footer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: -30px;
+    background-color: rgb(32,53,82);
+}
+
+footer div {
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+    align-content: stretch
+}
+
+img{
+     width:32px;
+    display:inline-block;
+    vertical-align:middle;
+    float:none;
+    padding-right: 24px
+}
+
+tr:hover td
+{
+    border-bottom: 2px solid rgb(0,164,219);
+}
+
