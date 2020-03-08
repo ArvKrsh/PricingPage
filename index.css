@@ -14,6 +14,7 @@ body {
 .heading {
     text-align: center;
     font-size: 30px;
+    padding-top: 20px
 }
 
 
@@ -48,6 +49,7 @@ table {
 .main {
     background-color: #2E5664;
     padding: 40px;
+    padding-bottom: 60px;
     color: white;
     position: relative
 }
@@ -58,7 +60,7 @@ table {
     margin: 10%;
     justify-content: space-around;
     position: relative;
-    margin-top: -50px;
+    margin-top: -60px;
 }
 
 .card {
