@@ -1,3 +1,3 @@
 # PricingPage
 
-A static pricing page using HTMl5 and CSS
+A static pricing page using HTML5 and CSS
